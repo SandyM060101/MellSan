@@ -1,0 +1,262 @@
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-registration input {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+
+/* CSS CUSTOM */
+
+
+/* Home Section Start */
+.home {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url('../img/MellSanBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home .content {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.home .content h5 {
+    color: white;
+    font-size: 38px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+}
+
+.home .content h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+}
+
+.changecontent::after {
+    content: ' ';
+    color: #ffa500;
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 10s infinite linear;
+}
+
+@keyframes changetext {
+    0% {
+        content: "Quotes";
+    }
+
+    10% {
+        content: "Puisi";
+    }
+
+    20% {
+        content: "Cerita Pendek";
+    }
+
+    30% {
+        content: "Novel";
+    }
+
+    40% {
+        content: "Drama";
+    }
+
+    50% {
+        content: "Pantun";
+    }
+
+    60% {
+        content: "Haiku";
+    }
+
+    70% {
+        content: "Novella";
+    }
+
+    80% {
+        content: "Monolog";
+    }
+
+    90% {
+        content: "Drama Musikal";
+    }
+
+    100% {
+        content: "Puisi Bebas";
+    }
+}
+
+.home .content p {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.home .content a {
+    padding: 10px;
+    background: white;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 550;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.home .content a:hover {
+    background: #ffa500;
+    color: white;
+}
+
+@media (max-width:850px) {
+    .home {
+        background-position: 50%;
+    }
+}
+
+@media (max-width:450px) {
+    .home .content h5 {
+        font-size: 25px;
+    }
+
+    .home .content h1 {
+        font-size: 38px;
+    }
+
+    .home .content p {
+        font-size: 13px;
+    }
+}
+
+/* Home Section End */
+
+/* Section Packages Start */
+.main-txt h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+
+.main-txt h1 span {
+    color: #ffa500;
+}
+
+.packages .card {
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.packages .card img {
+    border-radius: 5px;
+}
+
+.packages .card .card-body {
+    background: transparent;
+}
+
+.packages .card .card-body h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.packages .card .card-body p {
+    font-size: 15px;
+}
+
+.checked {
+    color: #ffa500;
+}
+
+.star i {
+    font-size: 15px;
+}
+
+.packages .card .card-body h6 {
+    font-size: 20px;
+}
+
+.packages .card .card-body a {
+    padding: 10px;
+    text-decoration: none;
+    background: #ffa500;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Section Packages End */
+
+
+
+
+
+/* About Start */
+.about {
+    padding: 50px;
+    margin-top: 50px;
+    background: #f9f9f9;
+}
+
+.about .card {
+    border-radius: 10px;
+}
+
+.about .card img {
+    border-radius: 10px;
+}
+
+.about h2 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.about p {
+    font-weight: 500;
+}
+
+#about-btn {
+    width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background: #ffa500;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 550;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#about-btn:hover {
+    width: 170px;
+}
+
+@media (max-width:765px) {
+    .about {
+        padding: 0;
+    }
+}
+
+/* About End */
